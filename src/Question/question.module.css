@@ -31,10 +31,6 @@
     margin:auto;
     padding-bottom: 10px;
 }
-.colored_line{
-    color: orange;
-
-}
 .instruction{
     margin:auto;
     text-align: center;
@@ -42,6 +38,7 @@
 }
 
 .question-card{
+    height:600px;
     background-color:rgba(255,255,255,0.7);
     text-align: center;
     margin: 20px;
@@ -61,8 +58,7 @@
 
 .option{
     border-radius:10px;
-
-    width: 450px;
+    width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
@@ -71,12 +67,29 @@
     background-color:rgba(255, 255, 255,1);
     box-shadow: 7px 7px 10px grey;
 }
+.option-c{
+    border-radius:10px;
+    width:50%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    margin:auto;
+    font-size:  20px;
+    background-color:rgba(255, 255, 255,1);
+    box-shadow: 7px 7px 10px grey;
+    height: 100px;
+    text-align: center;
+
+}
 
 .option > input[type=radio]{
     width: 25px;
     height: 25px;
 }
-
+.option-c > input[type=radio]{
+    width: 25px;
+    height: 25px;
+}
 .question-number{
     color:lightgrey
 }

@@ -31,6 +31,7 @@ const Question = () => {
     }
       
   }
+
   return (
     <div className={styles['question-page']}>
       <div className={styles['question-container']}>
@@ -39,9 +40,7 @@ const Question = () => {
             <h1>Welcome to the Quiz</h1>
           </div>
         </div>
-        <div className={styles.h_line}>
-          <hr color="orange"></hr>
-        </div>
+          <hr style={{width:'40%',borderColor:'orange'}}></hr>
         <div className={styles.instruction}>
           <h3>
             Please Select an Option to Move On
@@ -72,7 +71,7 @@ const QuestionComponent = (props) => {
           <h4>{question.title}</h4>
           
           <div className={styles['options']}>
-          <div style={{display:'flex',justifyContent:'space-around'}}>
+          <div style={{display:'flex',justifyContent:'space-around',width:'100%'}}>
 
           <div className={styles['option']}>
             <input key={'inp0'+question.title} onChange={()=>onCheck(0)} type="radio"></input>{question.options[0]}
@@ -83,9 +82,9 @@ const QuestionComponent = (props) => {
            </div>
            </div>
 
-            <div className={styles['option']}>
+            <div className={styles['option-c']}>
             <input key={'inp2'+question.title} onChange={()=>onCheck(0)} type="radio"></input>{question.options[2]}
-</div>
+            </div>
           </div>
 
         </div>
