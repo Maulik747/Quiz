@@ -1,0 +1,23 @@
+.thankyou-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin:auto;
+    width:40%;
+    height:100px;
+
+    color:white;
+    margin-top:50px;
+    border-radius:10px;
+    background: linear-gradient(45deg,#3273ba
+    ,#3a3267);
+}
+.greeting{
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+}
+
+
+

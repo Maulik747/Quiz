@@ -1,0 +1,134 @@
+.left-details{
+    display: flex;
+    flex-direction: column;
+    color:whitesmoke;
+    flex: 1;
+
+}
+
+
+.right-details{
+    float: right;
+    color: whitesmoke;
+    position: relative;
+    justify-content: right;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#3f2f6f;
+}
+
+.header >h1 {
+
+    padding:10px;
+    border-bottom:2px solid;
+}
+.header >span {
+
+    padding:50px;
+    font-size: large;
+}
+.header>p{
+    font-weight: bold;
+    font-size: x-large;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin:auto
+}
+.log{
+    display:flex;
+    height:100%;
+    padding: 30px 0;
+    background-color: #f08544;
+    width:100%;
+}
+
+
+form{
+    width:70%;
+    padding-bottom:30px;
+}
+
+label {
+    display: block;
+    font-size: medium;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+
+.inputgroup{
+    margin-bottom: 30px;
+    padding: 0px 20px;
+}
+
+.line{
+    border-left: 12px dotted whitesmoke;
+    flex:0.5
+}
+
+input{
+  height:50px;
+  width: 100%;
+  font-size: medium;
+  color:white;
+  border: 2px  rgb(247, 247, 244) dashed;
+  background-color: #f89e67;
+  box-sizing: border-box;
+  }
+/* 
+.select{
+    width:100%;
+    height:50px;
+    font-size: medium;
+    color:white;
+    border: 2px  rgb(247, 247, 244) dashed;
+    background-color: #f89e67;
+    box-sizing: border-box;
+    } */
+#gender{
+    width:100%;
+    height:50px;
+    font-size: medium;
+    color:white;
+    border: 2px  rgb(247, 247, 244) dashed;
+    background-color: #f89e67;
+    box-sizing: border-box;
+
+}
+button{
+    padding-top:10px;
+    padding-bottom:10px;
+    width:7.5%;
+    height:50px;
+    color:white;
+    font-size: medium;
+    border-radius:25px;
+    border:0px;
+    background-color:#f46733
+
+}
+
+#conditions{
+    display: inline;
+    width:20px;
+}
+
+#label[for="conditions"]{
+    display: inline;
+}
+.data{
+    text-decoration-line: underline;
+}
