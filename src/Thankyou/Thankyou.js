@@ -6,7 +6,7 @@ const Thankyou = () => {
         <div className="greeting">
         Thankyou!
         </div>
-       Thankyou for playing the game.Thankyou for playing the game.Thankyou for playing the game.
+       Thankyou for playing the game. Thankyou for playing the game. Thankyou for playing the game.
     </div>
   )
 }
